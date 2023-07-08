@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width initial-scale=1 shrink-to-fit=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Guessing!</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <p class="comp comp--name">mil<span>ES</span></p>
+      <div class="header--file">
+        <ul class="ul">
+          <li class="list list--home">Home</li>
+          <li class="list list--rule">Rules</li>
+          <!-- <li class="list list--services">Services</li>
+          <li class="list list--out">Log Out</li> -->
+        </ul>
+      </div>
+    </header>
+    <main>
+      <div id="container">
+        <div class="user-comp-section">
+          <section class="user--section section">
+            <p>User Choice</p>
+            <div class="user--text">
+              <input type="text" placeholder="input text" class="user--input" />
+              <div class="show-user show"></div>
+            </div>
+          </section>
+          <section class="comp--section section">
+            <p>Comp Choice</p>
+            <p class="comp-image">💻</p>
+            <div class="comp--text show-comp show"></div>
+          </section>
+        </div>
+        <p class="render"></p>
+        <p class="count-text"></p>
+        <div class="div-button">
+          <section class="btn--section">
+            <div class="submit--container">
+              <button class="btn submit">submit</button>
+              <div class="submit--tooltip">
+                Click this button to check if you guessed right. Don't be
+                scared😎
+              </div>
+            </div>
+            <div class="clear--container">
+              <button class="btn clear">clear</button>
+              <div class="clear--tooltip">
+                To delete all fields and input new number. Note: It does not
+                affect the trial count
+              </div>
+            </div>
+            <div class="reset--container">
+              <button class="btn reset">reset</button>
+              <div class="reset--tooltip">
+                To clear all fields and reset the trial count.
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class="restart--container">
+          <button class="btn restart hidden">restart</button>
+          <div class="restart--tooltip">Click to restart the guessing game</div>
+        </div>
+        <div class="try--container">
+          <button class="btn try hidden">try again</button>
+          <div class="try--tooltip">
+            Oops, you can try again. Do not give up!
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
